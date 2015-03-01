@@ -15,31 +15,7 @@ img {
     background-color: green;
 }
 
-video#bgvid {
-position: fixed; right: 0; bottom: 0;
-min-width: 100%; min-height: 100%;
-width: auto; height: auto; z-index: -100;
-background: url(polina.jpg) no-repeat;
-background-size: cover;
-}
 
-video { display: block; }
-
-@media screen and (max-device-width: 800px) {
-body { background: url(polina.jpg) #000 no-repeat center center fixed; }
-#bgvid { display: none; }
-}
-
-video#bgvid { transition: 1s opacity; }
-.stopfade { opacity: .5; }
-
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-}
- 
 .grow img {
   height: 35px;
   width: 35px;
@@ -54,4 +30,22 @@ video#bgvid { transition: 1s opacity; }
 .grow img:hover {
   width: 200px;
   height: 200px;
+}
+
+body {
+    background-image: url('http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2012/07/background-pattern-6.jpg');
+}
+
+.nav nav-tabs {
+    background-color: gainsboro;
+}
+
+a {
+    background-color: gainsboro
+}
+
+h1 {
+    text-align: center;
+    color: gainsboro;
+    font-size: 75px;
 }
