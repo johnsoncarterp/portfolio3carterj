@@ -41,7 +41,7 @@ body {
 }
 
 a {
-    background-color: gainsboro
+    background-color: gainsboro;
 }
 
 h1 {
@@ -109,7 +109,7 @@ h2 {
 }
 
 a:hover{
-    background-color: blue;
+    background-color: lightsteelblue;
 }
 
 #aa {
@@ -131,4 +131,20 @@ img {
 
 #img4 {
 margin-left: 24%;
+}
+
+#superHumans {
+    background-color: lightsteelblue;
+}
+
+#as {
+  color: lightsteelblue; 
+}
+
+#as:hover {
+    background-color: lightgray;
+}
+
+#ad {
+    color: #5e5e5e;
 }
