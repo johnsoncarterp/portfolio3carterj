@@ -28,8 +28,8 @@ img {
 }
  
 .grow img:hover {
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
 }
 
 body {
@@ -147,4 +147,9 @@ margin-left: 24%;
 
 #ad {
     color: #5e5e5e;
+}
+
+#qw {
+    height: 35px;
+    width: 35px;
 }
